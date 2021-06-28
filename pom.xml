@@ -19,7 +19,7 @@
         <functionAppName>nir-app-name</functionAppName>
         <functionAppRegion>westus</functionAppRegion>
         <stagingDirectory>${project.build.directory}/azure-functions/${functionAppName}</stagingDirectory>
-        <functionResourceGroup>java-functions-group</functionResourceGroup>
+        <functionResourceGroup>myapp-rg</functionResourceGroup>
     </properties>
 
     <repositories>
